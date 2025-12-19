@@ -1,6 +1,7 @@
 import Image from "next/image";
 import LocalImage from "../public/image/icon.png";
 import BanerImage from "../public/image/background.jpg";
+import Logo from "../public/image/logo.png";
 export default function Hero() {
   return (
     <section className="relative h-screen w-screen overflow-hidden">
@@ -8,11 +9,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-r from-[#392561] to-[#754CC7] opacity-90 backdrop-blur-2xl"></div>
       <div className="absolute z-10 h-screen w-screen  grid grid-cols-1 items-stretch justify-center  md:mx-4">
         <div className="flex w-screen items-center justify-center ">
-          <div className="flex h-8 md:h-6 items-center gap-2 rounded-xl border border-[#FFC610] bg-[#e5be805d] px-2 py-1 text-sm">
-            <img
-              className="size-3 md:size-4"
-              src="https://images.unsplash.com/photo-1765706728716-1469ed439130?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
+          <div className="flex h-8 md:h-6 items-center gap-0.5 rounded-xl  bg-[#ffc71029] px-2 py-4 text-sm">
+            <Image
+              src={Logo}
+              alt="ethchess logo"
+              className="size-[20px] md:size-6"
             />
             <p className="text-sm md:text-md text-nowrap text-[#FFC942]">
               Premium Chess Club Experience
@@ -26,7 +27,7 @@ export default function Hero() {
               ETHCHESS CLUB
             </span>
           </h1>
-          <p className="mx-auto md:w-[640px] mt-6 py-4 text-md md:text-xl md:py-2  text-white  md:text-center">
+          <p className="mx-auto md:w-[640px] mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-xl md:py-2  text-white  md:text-center">
             Join Our elite chess community. Compete in tournaments,climb
             leaderboards,and connect with chess enthusiasts from around the
             world
