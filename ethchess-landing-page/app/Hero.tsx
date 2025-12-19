@@ -16,16 +16,14 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <div className="mx-auto  ">
-          <h1 className="text-7xl text-wrap text-white md:text-center">
+        <div className="mx-auto  w-10/12">
+          <h1 className="text-5xl   md:text-7xl  text-white md:text-center">
             Master Chess With <br />
-            <span>
-              <strong className="bg-linear-to-r text-5xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text  font-extrabold tracking-wide text-transparent ">
-                ETHCHESS CLUB
-              </strong>
+            <span className="bg-linear-to-r md:text-5xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text  font-extrabold tracking-wide text-transparent">
+              ETHCHESS CLUB
             </span>
           </h1>
-          <p className="mx-auto mt-6 py-4 text-2xl md:text-sm md:py-2 text-white w-10/12 text-center">
+          <p className="mx-auto mt-6 py-4 text-md md:text-sm md:py-2 text-white  md:text-center">
             Join Our elite chess community. Compete in tournaments,climb
             leaderboards,and connect with chess enthusiasts from around the
             world
