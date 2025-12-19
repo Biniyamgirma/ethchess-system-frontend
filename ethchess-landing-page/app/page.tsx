@@ -4,7 +4,7 @@ import Achivments from "./Achivments";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Achivments />
     </>

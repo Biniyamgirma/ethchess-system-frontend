@@ -3,16 +3,16 @@ import React from "react";
 function Header() {
   return (
     <>
-      <div className="hidden md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] p-0.5">
-        <nav className="flex justify-between bg-linear-30 from-[#161736] to-[#421b6c] p-4 backdrop-blur-lg">
-          <div className="flex max-w-1/4 justify-around gap-2 text-center">
+      <div className=" md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] p-0.5">
+        <nav className="flex justify-between bg-linear-30 from-[#161736] to-[#421b6c] px-4 py-2 backdrop-blur-lg">
+          <div className="flex w-1/4  gap-2 text-center ">
             <div className="size-6 text-white">I</div>
             <div className="size-6 text-white">I</div>
             <div className="size-6 text-white">I</div>
             <div className="size-6 text-white">I</div>
             <div className="size-6 text-white">I</div>
           </div>
-          <div className="h-auto w-150">
+          <div className="h-auto w-1/2 ">
             <div className="flex items-center justify-center text-2xl text-white">
               ETH{" "}
               <img
@@ -39,22 +39,25 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="h-11/12 max-w-1/4 flex-col items-center">
-            <div className="flex h-fit w-full items-center justify-around gap-2 text-white">
-              <div className="size-6">I</div>
-              <div className="size-6 text-white">I</div>
-              <div className="size-6 text-white">I</div>
-            </div>
-            <div>
-              <button className="mt-6 rounded-lg border border-white px-4 py-2 text-nowrap text-white hover:cursor-pointer hover:bg-white/30">
-                Join us
-              </button>
+          <div className="h-11/12 w-1/4 grid grid-cols-1  items-center bg-amber-400">
+            <div className=" h-fit w-60 grid grid-cols-1 justify-end bg-purple-500">
+              <div className="flex items-center justify-end gap-8 text-white">
+                <div className="size-6">I</div>
+                <div className="size-6 text-white">I</div>
+                <div className="size-6 text-white">I</div>
+              </div>
+              <div>
+                <button className="mt-6 ml-16 rounded-lg border border-white px-4 py-2 text-nowrap text-white hover:cursor-pointer hover:bg-white/30">
+                  Join us
+                </button>
+              </div>
             </div>
           </div>
         </nav>
       </div>
+
       {/* // nav bar for header */}
-      <div className="max-w-screen overflow-hidden">
+      <div className="max-w-screen hidden overflow-hidden">
         <div className="bg-linear-to-r w-full from-[#421B6C66] to-[#1617361A] p-0.5 h-[60px] flex items-center px-6 justify-between">
           <div className="text-white h-[40px] text-nowrap flex items-center">
             <h2>ETH</h2>
