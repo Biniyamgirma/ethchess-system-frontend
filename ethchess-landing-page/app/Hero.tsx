@@ -4,7 +4,7 @@ import BanerImage from "../public/image/background.jpg";
 import Logo from "../public/image/logo.png";
 export default function Hero() {
   return (
-    <section className="relative h-screen w-screen overflow-hidden">
+    <section className="relative h-screen w-screen overflow-hidden font-inter">
       <div className="hero-section absolute inset-0 bg-cover bg-center"></div>
       <div className="absolute inset-0 bg-linear-to-r from-[#392561] to-[#754CC7] opacity-90 backdrop-blur-2xl"></div>
       <div className="absolute z-10 h-screen w-screen  grid grid-cols-1 items-stretch justify-center  md:mx-4">
@@ -21,13 +21,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="mx-auto  w-10/12">
-          <h1 className="text-5xl   md:text-7xl  text-white md:text-center">
+          <h1 className="text-5xl  md:text-6xl  text-white md:text-center">
             Master Chess With <br />
-            <span className="bg-linear-to-r md:text-5xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text  font-extrabold tracking-wide text-transparent">
+            <span className="font-inter bg-linear-to-r md:text-6xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text  font-extrabold tracking-wide text-transparent">
               ETHCHESS CLUB
             </span>
           </h1>
-          <p className="mx-auto md:w-[640px] mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-xl md:py-2  text-white  md:text-center">
+          <p className="mx-auto md:w-[640px] mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-md md:py-2  text-white  md:text-center">
             Join Our elite chess community. Compete in tournaments,climb
             leaderboards,and connect with chess enthusiasts from around the
             world

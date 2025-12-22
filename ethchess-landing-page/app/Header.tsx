@@ -1,24 +1,72 @@
 import React from "react";
-
+import Image from "next/image";
+import Logo from "../public/image/logo.png";
+import Youtube from "../public/image/youtube.png";
+import Instagram from "../public/image/instagram.png";
+import Facebook from "../public/image/facebook.png";
+import Tiwtter from "../public/image/tiwtter.png";
+import Person from "../public/image/profile.png";
+import Search from "../public/image/serch.png";
+import Gmail from "../public/image/gmail.png";
 function Header() {
   return (
     <>
       <div className=" md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] p-0.5">
-        <nav className="flex justify-between bg-linear-30 from-[#161736] to-[#421b6c] px-4 py-2 backdrop-blur-lg">
-          <div className="flex w-1/4  gap-2 text-center ">
-            <div className="size-6 text-white">I</div>
-            <div className="size-6 text-white">I</div>
-            <div className="size-6 text-white">I</div>
-            <div className="size-6 text-white">I</div>
-            <div className="size-6 text-white">I</div>
+        <nav className="flex justify-between bg-linear-30 from-[#1617367a] to-[#421b6cc0] px-8 py-2 backdrop-blur-lg">
+          <div className="flex w-1/4  gap-4 text-center ">
+            <div className="size-4 text-white">
+              <a href="">
+                <Image
+                  src={Instagram}
+                  alt="Ethchess instagram icon"
+                  className=""
+                />
+              </a>
+            </div>
+            <div className="size-4 text-white">
+              <a href="">
+                <Image
+                  src={Youtube}
+                  alt="Ethchess instagram icon"
+                  className=""
+                />
+              </a>
+            </div>
+            <div className="size-4 text-white">
+              <a href="">
+                <Image
+                  src={Instagram}
+                  alt="Ethchess instagram icon"
+                  className=""
+                />
+              </a>
+            </div>
+            <div className="size-4 text-white">
+              <a href="">
+                <Image
+                  src={Facebook}
+                  alt="Ethchess instagram icon"
+                  className=""
+                />
+              </a>
+            </div>
+            <div className="size-4 text-white">
+              <a href="">
+                <Image
+                  src={Tiwtter}
+                  alt="Ethchess x.com account link "
+                  className=""
+                />
+              </a>
+            </div>
           </div>
           <div className="h-auto w-1/2 ">
             <div className="flex items-center justify-center text-2xl text-white">
               ETH{" "}
-              <img
+              <Image
+                src={Logo}
+                alt="ethchess logo"
                 className="mx-2 size-8 rounded-full"
-                src="https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt=""
               />{" "}
               CHESS
             </div>
@@ -39,12 +87,24 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="h-11/12 w-1/4 grid grid-cols-1  items-center bg-amber-400">
-            <div className=" h-fit w-60 grid grid-cols-1 justify-end bg-purple-500">
+          <div className="h-11/12 w-1/4 flex justify-end  items-center ">
+            <div className=" h-fit w-60 grid grid-cols-1 justify-end ">
               <div className="flex items-center justify-end gap-8 text-white">
-                <div className="size-6">I</div>
-                <div className="size-6 text-white">I</div>
-                <div className="size-6 text-white">I</div>
+                <div className="size-4">
+                  <a href="">
+                    <Image src={Search} alt="serch icon " />
+                  </a>
+                </div>
+                <div className="size-4 text-white">
+                  <a href="">
+                    <Image src={Person} alt="profile icon" />
+                  </a>
+                </div>
+                <div className="size-4 text-white">
+                  <a href="">
+                    <Image src={Gmail} alt="email icon" />
+                  </a>
+                </div>
               </div>
               <div>
                 <button className="mt-6 ml-16 rounded-lg border border-white px-4 py-2 text-nowrap text-white hover:cursor-pointer hover:bg-white/30">
