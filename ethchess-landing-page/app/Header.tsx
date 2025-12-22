@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../public/image/logo.png";
+import Ethchess from "../public/image/ethchess.png";
 import Youtube from "../public/image/youtube.png";
 import Instagram from "../public/image/instagram.png";
 import Facebook from "../public/image/facebook.png";
@@ -64,7 +64,7 @@ function Header() {
             <div className="flex items-center justify-center text-2xl text-white">
               ETH{" "}
               <Image
-                src={Logo}
+                src={Ethchess}
                 alt="ethchess logo"
                 className="mx-2 size-8 rounded-full"
               />{" "}

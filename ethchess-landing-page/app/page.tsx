@@ -6,10 +6,10 @@ import Community from "./Community";
 export default function Home() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Hero />
-      <Achivments /> */}
-      {/* <Services /> */}
+      <Achivments />
+      <Services />
       <Community />
     </>
   );

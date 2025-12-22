@@ -3,7 +3,7 @@ import Crown from "../public/image/clock.png";
 
 export default function Services() {
   return (
-    <section className="w-full flex-col justify-center items-center h-screen  space-y-4 px-20 py-4 bg-linear-to-b from-[#1617361A] via-[#421B6C66] to-[#1617361A]">
+    <section className="w-full flex-col justify-center items-center  space-y-4 px-20 py-4 bg-linear-to-b from-[#1617361A] via-[#421B6C66] to-[#1617361A]">
       <h2 className="text-[28px]  md:text-3xl text- text-white text-center">
         Everything You Need To Excel
       </h2>

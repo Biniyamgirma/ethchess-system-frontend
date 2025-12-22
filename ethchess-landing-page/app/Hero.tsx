@@ -1,7 +1,7 @@
 import Image from "next/image";
 import LocalImage from "../public/image/icon.png";
-import BanerImage from "../public/image/background.jpg";
-import Logo from "../public/image/logo.png";
+import Logo from "../public/image/ethchess.png";
+
 export default function Hero() {
   return (
     <section className="relative h-screen w-screen overflow-hidden font-inter">
