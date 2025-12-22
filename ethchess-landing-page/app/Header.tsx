@@ -11,8 +11,8 @@ import Gmail from "../public/image/gmail.png";
 function Header() {
   return (
     <>
-      <div className=" md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] p-0.5">
-        <nav className="flex justify-between bg-linear-30 from-[#1617367a] to-[#421b6cc0] px-8 py-2 backdrop-blur-lg">
+      <div className=" md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] ">
+        <nav className="flex justify-between bg-linear-to-r from-[#392561] to-[#754CC7] px-8 py-2 backdrop-blur-lg">
           <div className="flex w-1/4  gap-4 text-center ">
             <div className="size-4 text-white">
               <a href="">
