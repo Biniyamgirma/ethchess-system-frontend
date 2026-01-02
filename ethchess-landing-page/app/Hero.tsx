@@ -15,29 +15,46 @@ export default function Hero() {
               alt="ethchess logo"
               className="size-[20px] md:size-6"
             />
-            <p className="text-sm md:text-md text-nowrap text-[#FFC942]">
+            <p className="font-medium text-sm md:text-md text-nowrap text-[#FFC942]">
               Premium Chess Club Experience
             </p>
           </div>
         </div>
         <div className="mx-auto  w-10/12">
-          <h1 className="text-5xl  md:text-6xl  text-white md:text-center">
+          <h1 className="text-5xl font-extrabold md:text-6xl  text-white md:text-center">
             Master Chess With <br />
-            <span className="font-inter bg-linear-to-r md:text-6xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text  font-extrabold tracking-wide text-transparent">
+            <span className="font-extrabold bg-linear-to-r md:text-6xl from-yellow-400 via-orange-300 to-orange-400 bg-clip-text tracking-wide text-transparent">
               ETHCHESS CLUB
             </span>
           </h1>
-          <p className="mx-auto md:w-[640px] mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-md md:py-2  text-white  md:text-center">
+          <p className="font-normal mx-auto md:w-[640px]  mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-md md:py-2  text-white  md:text-center">
             Join Our elite chess community. Compete in tournaments,climb
             leaderboards,and connect with chess enthusiasts from around the
             world
           </p>
         </div>
         <div className="w-10/12 md:w-1/3  md:flex items-center md:space-x-4 justify-center mx-auto">
-          <button className="flex w-full text-black cursor-pointer items-center justify-center rounded-lg bg-[#E9B308] py-2 hover:bg-[#e9b508b5]">
-            Join Club Now <span className="pl-4 font-bold">T</span>
+          <button className="font-medium flex w-full text-black cursor-pointer items-center justify-center rounded-lg bg-[#E9B308] py-2 hover:bg-[#e9b508b5]">
+            Join Club Now{" "}
+            <span className="pl-4 font-bold">
+              <svg
+                width="20px"
+                height="20px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 7L15 12L10 17"
+                  stroke="#000000"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
           </button>
-          <button className="mt-2 md:mt-0 w-full text-black cursor-pointer rounded-lg bg-[#ffff] py-2 hover:bg-[#ffff]">
+          <button className="font-medium mt-2 md:mt-0 w-full text-black cursor-pointer rounded-lg bg-[#ffff] py-2 hover:bg-[#ffff]">
             Contact Us
           </button>
         </div>
