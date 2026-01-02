@@ -14,9 +14,9 @@ function Header() {
     <>
       <div className="hidden flex-col md:flex w-screen bg-linear-to-r from-[#421B6C66] to-[#1617361A] ">
         <nav className="flex justify-between bg-linear-to-r from-[#392561] to-[#754CC7] px-8 py-2 backdrop-blur-lg">
-          <div className="flex w-1/4  gap-4 text-center ">
-            <div className="size-4 text-white">
-              <a href="">
+          <div className="flex w-1/4 mt-4 gap-4 text-center ">
+            <div className="flex items-center justify-center size-5   rounded-full  hover:bg-white/60 text-white">
+              <a href="" className="">
                 <Image
                   src={Instagram}
                   alt="Ethchess instagram icon"
@@ -24,7 +24,7 @@ function Header() {
                 />
               </a>
             </div>
-            <div className="size-4 text-white">
+            <div className="size-5  rounded-full  hover:bg-white/60 text-white">
               <a href="">
                 <Image
                   src={Youtube}
@@ -33,7 +33,7 @@ function Header() {
                 />
               </a>
             </div>
-            <div className="size-4 text-white">
+            <div className="size-5   rounded-full  hover:bg-white/60 text-white">
               <a href="">
                 <Image
                   src={Instagram}
@@ -42,7 +42,7 @@ function Header() {
                 />
               </a>
             </div>
-            <div className="size-4 text-white">
+            <div className="size-5   rounded-full  hover:bg-white/60 text-white">
               <a href="">
                 <Image
                   src={Facebook}
@@ -51,7 +51,7 @@ function Header() {
                 />
               </a>
             </div>
-            <div className="size-4 text-white">
+            <div className="size-5   rounded-full  hover:bg-white/60 text-white">
               <a href="">
                 <Image
                   src={Tiwtter}
@@ -62,7 +62,7 @@ function Header() {
             </div>
           </div>
           <div className="h-auto w-1/2 ">
-            <div className="font-bold flex items-center justify-center space-x-2 text-2xl text-white">
+            <div className="font-bold flex mt-2 items-center justify-center space-x-2 text-2xl text-white">
               ETH{" "}
               <Image
                 src={Ethchess}
@@ -90,25 +90,25 @@ function Header() {
           </div>
           <div className="h-11/12 w-1/4 flex justify-end  items-center ">
             <div className=" h-fit w-60 grid grid-cols-1 justify-end ">
-              <div className="flex items-center justify-end gap-8 text-white">
-                <div className="size-4">
+              <div className="flex items-center justify-end gap-8 mt-4 text-white">
+                <div className="size-5   rounded-full  hover:bg-white/60">
                   <a href="">
                     <Image src={Search} alt="serch icon " />
                   </a>
                 </div>
-                <div className="size-4 text-white">
+                <div className="size-5   rounded-full  hover:bg-white/60 text-white">
                   <a href="">
                     <Image src={Person} alt="profile icon" />
                   </a>
                 </div>
-                <div className="size-4 text-white">
+                <div className="size-5   rounded-full  hover:bg-white/60 text-white">
                   <a href="">
                     <Image src={Gmail} alt="email icon" />
                   </a>
                 </div>
               </div>
               <div>
-                <button className="mt-6 ml-16 rounded-lg border border-white px-4 py-2 text-nowrap text-white hover:cursor-pointer hover:bg-white/30">
+                <button className="my-4 ml-16 rounded-lg border font-medium border-white px-6 py-1 text-nowrap text-white hover:cursor-pointer hover:bg-white/30">
                   Join us
                 </button>
               </div>

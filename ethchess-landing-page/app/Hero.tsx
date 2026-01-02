@@ -1,6 +1,8 @@
 import Image from "next/image";
 import LocalImage from "../public/image/icon.png";
 import Logo from "../public/image/ethchess.png";
+import SecondImage from "../public/image/wancha.png";
+import ThiredImage from "../public/image/crown1.png";
 
 export default function Hero() {
   return (
@@ -27,7 +29,7 @@ export default function Hero() {
               ETHCHESS CLUB
             </span>
           </h1>
-          <p className="font-normal mx-auto md:w-[640px]  mask-radial-from-neutral-300 mt-6 py-4 text-md md:text-md md:py-2  text-white  md:text-center">
+          <p className="font-normal mx-auto md:w-[640px]   mt-4 py-4 text-md md:text-md md:py-2  text-white  md:text-center">
             Join Our elite chess community. Compete in tournaments,climb
             leaderboards,and connect with chess enthusiasts from around the
             world
@@ -54,31 +56,31 @@ export default function Hero() {
               </svg>
             </span>
           </button>
-          <button className="font-medium mt-2 md:mt-0 w-full text-black cursor-pointer rounded-lg bg-[#ffff] py-2 hover:bg-[#ffff]">
+          <button className="font-medium mt-2 md:mt-0 w-full text-black cursor-pointer rounded-lg bg-[#ffff] py-2 hover:bg-[#ffffff83]">
             Contact Us
           </button>
         </div>
         <div className="hidden md:flex mx-auto justify-around items-center w-11/12">
           <div className=" ">
-            <div className="max-w-8 flex">
+            <div className="max-w-8 flex gap-2">
               <Image src={LocalImage} alt="icon image" placeholder="blur" />
-              <h3 className="text-2xl ">1,250+</h3>
+              <h3 className="text-2xl font-semibold">1,250+</h3>
             </div>
-            <p className="text-sm text-[#C5C5C5]">Active Members</p>
+            <p className="text-sm font-light text-[#C5C5C5]">Active Members</p>
           </div>
           <div className=" ">
-            <div className="max-w-8 flex">
-              <Image src={LocalImage} alt="icon image" placeholder="blur" />
-              <h3 className="text-2xl ">1,250+</h3>
+            <div className="max-w-8  flex gap-2">
+              <Image src={SecondImage} alt="icon image" placeholder="blur" />
+              <h3 className="text-2xl font-semibold">500+</h3>
             </div>
-            <p className="text-sm text-[#C5C5C5]">Active Members</p>
+            <p className="text-sm font-light text-[#C5C5C5]">Tournaments</p>
           </div>
           <div className=" ">
-            <div className="max-w-8 flex">
-              <Image src={LocalImage} alt="icon image" placeholder="blur" />
-              <h3 className="text-2xl ">1,250+</h3>
+            <div className="max-w-8 flex gap-2">
+              <Image src={ThiredImage} alt="icon image" placeholder="blur" />
+              <h3 className="text-2xl font-semibold ">10k+</h3>
             </div>
-            <p className="text-sm text-[#C5C5C5]">Active Members</p>
+            <p className="text-sm text-[#C5C5C5] font-light">Games Played</p>
           </div>
         </div>
       </div>
