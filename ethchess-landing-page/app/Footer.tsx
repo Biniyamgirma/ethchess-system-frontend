@@ -15,7 +15,7 @@ import Gmail from "../public/image/gmail.png";
 function Footer() {
   return (
     <footer className="text-white bg-[#141731] ">
-      <div className="flex-col md:flex-row justify-between px-12 py-8">
+      <div className="flex flex-col md:flex-row justify-between px-12 py-8">
         <div className="space-y-4 md:space-y-8 md:w-1/3 w-11/12">
           <div className="flex h-12 w-fit items-center font-bold justify-center space-x-2 text-3xl md:text-2xl">
             ETH
@@ -56,7 +56,7 @@ function Footer() {
             <Image src={Youtube} alt="youtub logo" />
           </div>
         </div>
-        <div className="flex-col md:flex-row pl-4 my-12 md:my-0 md:space-x-16 space-y-6 md:space-y-0">
+        <div className="flex flex-col md:flex-row pl-4 my-12 md:my-0 md:space-x-16 space-y-6 md:space-y-0">
           <ul className="space-y-2  text-sm font-light text-[#D6DCE8]">
             <li className="font-semibold md:text-xl pb-2">Chess Community</li>
             <li>

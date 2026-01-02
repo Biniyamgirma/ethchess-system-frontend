@@ -6,7 +6,7 @@ import Clock from "../public/image/clock.png";
 
 function Community() {
   return (
-    <section className="w-screen md:h-screen  bg-linear-45 px-6 from-[#392561] to-[#754CC7]">
+    <section className="w-screen md:h-auto  bg-linear-45 px-6 from-[#392561] to-[#754CC7] md:py-8 ">
       <div className="py-6 space-y-4">
         <h3 className="text-[28px] font-bold  md:text-4xl  text-white text-center">
           Growing Chess Community
