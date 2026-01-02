@@ -131,7 +131,7 @@ function Header() {
               <h2>CHESS</h2>
             </div>
             <div id="hum-burger" className="flex justify-center items-center">
-              <button className="hidden">
+              <button className="">
                 <svg
                   width="32px"
                   height="32px"
@@ -148,7 +148,7 @@ function Header() {
                   />
                 </svg>
               </button>
-              <button className="">
+              <button className="hidden">
                 <svg
                   width="32px"
                   height="32px"

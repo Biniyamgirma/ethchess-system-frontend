@@ -15,39 +15,39 @@ import Gmail from "../public/image/gmail.png";
 function Footer() {
   return (
     <footer className="text-white bg-[#141731] ">
-      <div className="flex justify-between px-12 py-8">
-        <div className="space-y-8 w-1/3">
-          <div className="flex h-12 w-fit items-center font-bold justify-center space-x-2 text-2xl">
+      <div className="flex-col md:flex-row justify-between px-12 py-8">
+        <div className="space-y-4 md:space-y-8 md:w-1/3 w-11/12">
+          <div className="flex h-12 w-fit items-center font-bold justify-center space-x-2 text-3xl md:text-2xl">
             ETH
             <Image src={ETHchessLogo} alt="" className="size-8" /> CHESS
           </div>
-          <div className="  ">
-            <p className=" text-lg font-light text-[#D6DCE8]">
+          <div className=" ">
+            <p className="  md:text-lg font-light text-[#D6DCE8] ">
               Connecting chess players, tournaments, and community across
               Ethiopia, one move at a time.
             </p>
           </div>
           <div className="flex-col space-y-4 font-light text-[#D6DCE8]">
             <div className="">
-              <a href="" className="flex size-6 space-x-2">
-                <Image src={Email} alt="email icon" className="size-6" />
+              <a href="" className="flex h-4 items-center md:size-6 space-x-2">
+                <Image src={Email} alt="email icon" className="size-4" />
                 <p>Support@ethchess.com</p>
               </a>
             </div>
-            <div className="flex size-6 space-x-2">
-              <a href="" className="flex size-6 space-x-2">
-                <Image src={Phone} alt="phone" className="size-6" />
+            <div className="">
+              <a href="" className="flex h-4  items-center md:size-6 space-x-2">
+                <Image src={Phone} alt="phone" className="size-4" />
                 <p>+252972788430</p>
               </a>
             </div>
-            <div className="flex size-6 space-x-2">
-              <a href="" className="flex size-6 space-x-2">
-                <Image src={Email} alt="location" className="size-6" />
+            <div className="">
+              <a href="" className="flex h-4 items-center md:size-6 space-x-2">
+                <Image src={Email} alt="location" className="size-4" />
                 <p>Ethiopia</p>
               </a>
             </div>
           </div>
-          <div className="flex size-6 space-x-6 ">
+          <div className="flex size-6 space-x-6  my-4 md:my-0">
             <Image src={Instagram} alt="instagram logo image" />
             <Image src={Tiwtter} alt="tiwtter log" />
 
@@ -56,9 +56,9 @@ function Footer() {
             <Image src={Youtube} alt="youtub logo" />
           </div>
         </div>
-        <div className="flex pl-4 space-x-16">
-          <ul className="space-y-2 text-sm font-light text-[#D6DCE8]">
-            <li className="font-semibold text-xl pb-2">Chess Community</li>
+        <div className="flex-col md:flex-row pl-4 my-12 md:my-0 md:space-x-16 space-y-6 md:space-y-0">
+          <ul className="space-y-2  text-sm font-light text-[#D6DCE8]">
+            <li className="font-semibold md:text-xl pb-2">Chess Community</li>
             <li>
               <a href="">Leader-board</a>
             </li>
@@ -73,7 +73,9 @@ function Footer() {
             </li>
           </ul>
           <ul className="space-y-2 text-sm font-light text-[#D6DCE8]">
-            <li className="font-semibold text-xl pb-2">Chess Community</li>
+            <li className="font-semibold md:not-first:text-xl pb-2">
+              Chess Community
+            </li>
             <li>
               <a href="">Leader-board</a>
             </li>
@@ -88,7 +90,7 @@ function Footer() {
             </li>
           </ul>
           <ul className="space-y-2 text-sm font-light text-[#D6DCE8]">
-            <li className="font-semibold text-xl pb-2 ">Chess Community</li>
+            <li className="font-semibold md:text-xl pb-2 ">Chess Community</li>
             <li>
               <a href="">Leader-board</a>
             </li>
