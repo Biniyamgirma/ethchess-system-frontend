@@ -12,7 +12,7 @@ import Gmail from "../public/image/gmail.png";
 function Header() {
   return (
     <>
-      <div className="hidden md:flex-col bg-linear-to-r from-[#421B6C66] to-[#1617361A] ">
+      <div className="hidden flex-col md:flex w-screen bg-linear-to-r from-[#421B6C66] to-[#1617361A] ">
         <nav className="flex justify-between bg-linear-to-r from-[#392561] to-[#754CC7] px-8 py-2 backdrop-blur-lg">
           <div className="flex w-1/4  gap-4 text-center ">
             <div className="size-4 text-white">
@@ -142,9 +142,9 @@ function Header() {
                   <path
                     d="M4 17H8M12 17H20M4 12H20M4 7H12M16 7H20"
                     stroke="#fff"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </button>
@@ -161,8 +161,8 @@ function Header() {
                     fill="#fff"
                   />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12Z"
                     fill="#fff"
                   />
